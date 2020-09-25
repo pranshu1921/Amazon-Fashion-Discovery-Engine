@@ -1,0 +1,11 @@
+matplotlib
+numpy
+pandas
+bs4
+nltk
+seaborn
+sklearn
+scipy
+plotly
+keras
+pickle
