@@ -2,7 +2,7 @@
 
 This is a content based recommendation engine for recommending apparel items or products at [Amazon](https://www.amazon.com), using text and image data retreived from website.
 Suggested text based recommendations using Bag of Words (BoW), Word2Vec and TF-IDF techniques.
-Made image based recommendations using Convolutional Nets.
+Made image based recommendations using Convolutional Neural Network(CNN).
 
 ## Table of contents
 * [General info](#general-info)
