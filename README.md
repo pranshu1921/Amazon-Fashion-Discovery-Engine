@@ -1,9 +1,8 @@
 # Amazon-Fashion-Discovery-Engine
 
-This repo contains the Capstone Project - The Battle of the Neighborhoods Applied Data Science Capstone by IBM/Coursera
-
-Introduction: Business Problem This project aims to select the safest borough in London based on the total crimes, explore the neighborhoods of that borough to find the 10 most common venues in each neighborhood and finally cluster the neighborhoods using k-mean clustering.
-
+This is a content based recommendation engine for recommending apparel items or products at [Amazon](https://www.amazon.com), using text and image data retreived from website.
+Suggested text based recommendations using Bag of Words (BoW), Word2Vec and TF-IDF techniques.
+Made image based recommendations using Convolutional Nets.
 
 ## Table of contents
 * [General info](#general-info)
@@ -14,30 +13,33 @@ Introduction: Business Problem This project aims to select the safest borough in
 
 ## General info
 
-This report will be targeted to people who are looking to relocate to London. Inorder to finalise a neighborhood to hunt for an apartment, safety is considered as a top concern when moving to a new place. If you don’t feel safe in your own home, you’re not going to be able to enjoy living there. The crime statistics will provide an insight into this issue.
+Amazon, each year makes additional 30% revenue through product recommendations, a value greater than $40 Billion.
 
-Preprocessed a real world data set from Kaggle showing the London Crimes from 2008 to 2016
+Using this content based recomendation, we get a glimpse to the recommendation systems at Amazon, constantly recommending the right products to customers.
 
-URL: https://www.kaggle.com/jboysen/london-crime
+We made use of text and image data of products, web scraped for the website using the Amazon API.
 
-Kindly refer to the pdf report [here](https://github.com/pranshu1921/Coursera_Capstone/blob/master/Capstone%20Project%20-%20Report.pdf) for complete explanation.
+Brand name, title, description, price are one of the major features for extraction of data for recommendation engine.
 
 ## Setup
 
-* Download the Jupyter Notebook above on your computer.
+* Download the Jupyter Notebooks on your computer.
+* Download training, testing, and other important data using link provided in ['AppliedAIWorkshop.ipynb']()
 
 ### Install the requirements
  
 * Install the requirements using `pip install -r requirements.txt`.
     * Make sure you use Python 3.
     
-* Run the jupyter notebook
+* Run the jupyter notebooks in the following order - 
+  1. AppliedAIWorkshop.ipynb
+  2. image_similarity_cnn.ipynb
 
 ## Status
-Project is: Finished
+Project status: **Finished**
 
 ## Inspiration
-This project was part of the learning process for the IBM Applied Data Science Professional Certificate on [Coursera.com](https://www.coursera.com/)
+This project was part of one of the Applied Machine Learning Case Studies provided by AppliedAIcourse.
 
 ## Contact
 Feel free to contact me, send a mail to **pranshu1921@gmail.com**
