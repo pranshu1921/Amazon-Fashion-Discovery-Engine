@@ -24,7 +24,7 @@ Brand name, title, description, price are one of the major features for extracti
 ## Setup
 
 * Download the Jupyter Notebooks on your computer.
-* Download training, testing, and other important data using link provided in ['AppliedAIWorkshop.ipynb']()
+* Download training, testing, and other important data using link provided in [this](https://github.com/pranshu1921/Amazon-Fashion-Discovery-Engine/blob/master/AppliedAIWorkshop.ipynb) file.
 
 ### Install the requirements
  
