@@ -9,3 +9,4 @@ scipy
 plotly
 keras
 pickle
+gensim
